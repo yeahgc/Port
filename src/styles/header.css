@@ -1,0 +1,37 @@
+.home-text--heading {
+  text-transform: uppercase !important;
+  font-weight: 700;
+  font-size: 3.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    276deg,
+    rgb(255, 255, 255)  4%,
+    rgb(255, 255, 255)62%,
+    rgb(255, 255, 255)100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.6rem;
+  width: 100% !important;
+}
+
+.home-text--subheading {
+  font-weight: 400 !important;
+  margin-top: 1.8rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.home-text--info {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  line-height: 1.7;
+  color: rgb(255, 255, 255);
+}
+body{
+  background-color: black;
+}

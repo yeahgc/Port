@@ -1,0 +1,90 @@
+#contact {
+  margin-top: 2rem;
+
+  background: linear-gradient(
+    to right bottom,
+    rgba(0, 0, 0, 0.699),
+    rgba(0, 0, 0, 0.801)
+  );
+  padding-bottom: 3rem;
+}
+
+.contact-container {
+  padding-top: 3rem;
+  color: white;
+}
+
+.left-txt {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.input-label {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.label-line {
+  padding: 0rem 0.2rem;
+  background: #000000;
+  margin-right: 0.3rem;
+}
+
+.input-div {
+  width: 40rem;
+  margin: auto;
+}
+
+.input-submit-btn {
+  border: none;
+  background: #000000;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.input-submit-btn:hover {
+  transition: 0.3s ease-in-out;
+  background: #000000;
+}
+
+.footer {
+  font-family: "Poppins", sans-serif;
+  margin-top: 1rem;
+}
+
+.credits-name {
+  color: #000000;
+  font-weight: 600;
+}
+
+.success-message-text {
+  color: #000000;
+  font-weight: 600;
+}
+
+.form-control {
+  border: none !important;
+}
+
+@media only screen and (max-width: 770px) {
+  .input-div {
+    width: 25rem;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 515px) {
+  .input-div {
+    width: 18rem;
+    margin: auto;
+  }
+}
